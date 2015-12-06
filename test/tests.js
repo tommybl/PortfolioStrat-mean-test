@@ -1,7 +1,7 @@
 var supertest = require('supertest');
 var should = require('should');
 var mongoose = require('mongoose');
-var serverHost = 'http://localhost:1337/';
+var serverHost = 'http://localhost:1337';
 
 // initializing mongodb connection and models
 mongoose.connect('mongodb://localhost/PortfolioStrat');
