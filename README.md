@@ -1,5 +1,7 @@
 # PortfolioStrat Mean Task
 
+The application generate random charts (line, bar and scatter) with 1 to 4 series, each with 10 to 30 values.
+
 > Build process: download the project and run the following command
 
 `npm install && npm run gulp`
@@ -16,7 +18,7 @@ _Make sure to have installed npm, bower, node and gulp, for the automatic build 
 
 ### Development stack
 
-`AngularJS, Less, Node.js, Express.js, MongoDB, Responsive with Bootstrap`
+`AngularJS, Less, Node.js, Express.js, MongoDB, Responsive with Bootstrap, Highcharts`
 
 ### Build Process
 
