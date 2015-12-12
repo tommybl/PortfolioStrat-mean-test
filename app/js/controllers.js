@@ -74,6 +74,10 @@ function($rootScope, $scope, $location, $http, $timeout, Graph) {
                 if (data.error != undefined) $scope.errorMess2 = data.error;
                 else {
                     $scope.errorMess2 = undefined;
+                    $scope.form.title = data.chart.title;
+                    $scope.form.min = data.chart.data_min;
+                    $scope.form.max = data.chart.data_max;
+                    $scope.form.type = data.chart.chart_type;
                     Graph.build(data.chart, $scope);
                 }
             })
